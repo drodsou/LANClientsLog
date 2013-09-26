@@ -1,3 +1,5 @@
+delimiter $$
+
 CREATE TABLE `equipos_ping_log` (
   `ip` varchar(15) DEFAULT NULL,
   `host` varchar(50) DEFAULT NULL,
